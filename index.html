@@ -13,41 +13,43 @@
 	<title>Javascript Calculator</title>
 </head>
 <body>
+	<form name="calci">
 	<div class="text-center">
-		<h1>Calculator</h1>
-	</div>
-	<div id="displayResult">
-		<span id="steps">0</span>
-	</div>
+		<h1>Javascript Calculator</h1>
+	
+	<input name="output" id="displayResult">
+		
 	<div class="text-center" id="calc">
 		<input class="btn" id="ma" type="button" value="MA"> 
 		<input class="btn" id="ms" type="button" value="MS"> 
 		<input class="btn" id="mr" type="button" value="MR"> 
 		<input class="btn" id="mc" type="button" value="MC">
 		<br>
-		<input class="btn" id="7" type="button" value="7"> 
-		<input class="btn" id="8" type="button" value="8"> 
-		<input class="btn" id="9" type="button" value="9"> 
-		<input class="btn" id="*" type="button" value="*">
+		<input class="btn" id="7" type="button" value="7" onclick="getValue7()"> 
+		<input class="btn" id="8" type="button" value="8" onclick="getValue8()"> 
+		<input class="btn" id="9" type="button" value="9" onclick="getValue9()"> 
+		<input class="btn" id="*" type="button" value="*" onclick="doMulti()">
 		<br>
-		<input class="btn" id="4" type="button" value="4"> 
-		<input class="btn" id="5" type="button" value="5"> 
-		<input class="btn" id="6" type="button" value="6"> 
-		<input class="btn" id="-" type="button" value="-">
+		<input class="btn" id="4" type="button" value="4" onclick="getValue4()"> 
+		<input class="btn" id="5" type="button" value="5" onclick="getValue5()"> 
+		<input class="btn" id="6" type="button" value="6" onclick="getValue6()"> 
+		<input class="btn" id="-" type="button" value="-" onclick="doSub()">
 		<br>
-		<input class="btn" id="1" type="button" value="1"> 
-		<input class="btn" id="2" type="button" value="2"> 
-		<input class="btn" id="3" type="button" value="3"> 
-		<input class="btn" id="+" type="button" value="+">
+		<input class="btn" id="1" type="button" value="1" onclick="getValue1()"> 
+		<input class="btn" id="2" type="button" value="2" onclick="getValue2()"> 
+		<input class="btn" id="3" type="button" value="3" onclick="getValue3()"> 
+		<input class="btn" id="plus" type="button" value="+" onclick="doAdd()">
 		<br>
-		<input class="btn" id="0" type="button" value="0"> 
-		<input class="btn" id="." type="button" value="."> 
-		<input class="btn" id="/" type="button" value="/"> 
-		<input class="btn" id="=" type="button" value="=">
+		<input class="btn" id="0" type="button" value="0" onclick="getValue0()"> 
+		<input class="btn" id="." type="button" value="." onclick="getDot()"> 
+		<input class="btn" id="/" type="button" value="/" onclick="doDiv()"> 
+		<input class="btn" id="equals" type="button" value="=" onclick="evalu()">
 		<br>
-		<input class="btn bigButton" id="clearAll" type="button" value="C"> 
+		<input class="btn bigButton" id="clearAll" type="button" value="C" onclick="doClear()"> 
 		<input class="btn bigButton" id="clearEntry" type="button" value="CE">
 	</div>
+	</div>
+	</form>
 	<script src="index.js">
 	</script>
 </body>
