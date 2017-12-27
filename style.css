@@ -1,5 +1,5 @@
 body {
-	background-color: #ffdb4d; 
+	background-color: #ffcccc;
 }
 h1 {
 	color: #800000;
@@ -11,16 +11,16 @@ h1 {
 	width: 350px;
 	border-top-left-radius: 1em;
 	border-top-right-radius: 1em;
-	font-size:40px;
+	font-size: 40px;
 	text-align: right;
 	margin-left: auto;
 	margin-right: auto;
 	margin-top: 30px;
 	padding-top: 30px;
-	padding-right:20px;
+	padding-right: 20px;
 }
 #calc {
-	background-color: #800000; 
+	background-color: #800000;
 	width: 350px;
 	padding-top: 20px;
 	padding-bottom: 30px;
@@ -30,12 +30,11 @@ h1 {
 	margin-right: auto;
 }
 .btn {
-	background-color: #84e184;
+	background-color: #ccffcc;
 	margin: 5px;
 	width: 3.6vw;
 	height: 3.6vw;
 	font-size: 22px;
-	font-
 }
 .bigButton {
 	width: 130px;
